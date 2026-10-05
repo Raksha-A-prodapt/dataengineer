@@ -1,0 +1,12 @@
+property_name     object
+areaWithType      object c
+square_feet       object c
+transaction       object
+status            object
+floor             object
+furnishing        object
+facing            object
+description       object
+price_per_sqft    object
+price             object
+dtype: object

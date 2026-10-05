@@ -1,0 +1,31 @@
+orders
+ |-- order_id: integer (nullable = true)
+ |-- customer_id: integer (nullable = true)
+ |-- product_id: integer (nullable = true)
+ |-- order_date: date (nullable = true)
+ |-- ship_date: date (nullable = true)
+ |-- quantity: integer (nullable = true)
+ |-- unit_price: integer (nullable = true)
+ |-- discount_percentage: integer (nullable = true)
+ |-- payment_mode: string (nullable = true)
+ |-- order_status: string (nullable = true)
+ |-- sales_amount: double (nullable = true)
+
+customers
+ |-- customer_id: integer (nullable = true)
+ |-- customer_name: string (nullable = true)
+ |-- gender: string (nullable = true)
+ |-- age: integer (nullable = true)
+ |-- city: string (nullable = true)
+ |-- state: string (nullable = true)
+ |-- signup_date: date (nullable = true)
+ |-- membership_type: string (nullable = true)
+ |-- credit_score: integer (nullable = true)
+
+product
+ |-- product_id: integer (nullable = true)
+ |-- product_name: string (nullable = true)
+ |-- category: string (nullable = true)
+ |-- brand: string (nullable = true)
+ |-- price: integer (nullable = true)
+ |-- stock_quantity: integer (nullable = true)
